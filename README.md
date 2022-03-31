@@ -11,7 +11,7 @@
 - DBA Stuff: A few things related to Databases
 - Perl: Stuff on how to, examples, and cookbooks.
 - Ruby: not much
-- Python: It was bound to happen
+- [Python](python/README.md): It was bound to happen
 - bash: when all you need to do is spit out commands
 - Java(script): Either/or... not much
 - RegExp: notes on your favorite match command
