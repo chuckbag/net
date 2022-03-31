@@ -1,6 +1,20 @@
 # IP and Metrics
 In this doc, we will look at how we can, or prevent, summation of groups of IPs within BGP. We will also look at how BGP uses metrics to manipulate pathways from the end customer to te internet; with local preferences and weights (bigger is better), and from the internet (same AS#) to the end customer; with MED's and paths (smaller is better).
 
+- [IP and Metrics](#ip-and-metrics)
+  - [BGP Summarization Options](#bgp-summarization-options)
+    - [BGP Aggregate Route Configuration: (summery-only)](#bgp-aggregate-route-configuration-summery-only)
+    - [BGP Aggregate Address Using (as-set)](#bgp-aggregate-address-using-as-set)
+    - [Summarization with the Network Command](#summarization-with-the-network-command)
+  - [BGP Metrics](#bgp-metrics)
+    - [BGP Weight Metric](#bgp-weight-metric)
+    - [BGP Local Preference](#bgp-local-preference)
+    - [BGP Multi-Exit Discriminator (MED)](#bgp-multi-exit-discriminator-med)
+    - [BGP AS Path Prepending](#bgp-as-path-prepending)
+  - [How BGP Selects a Path](#how-bgp-selects-a-path)
+    - [Administrative Distances for Route Selection](#administrative-distances-for-route-selection)
+    - [Load Balancing with BGP](#load-balancing-with-bgp)
+
 
 ## BGP Summarization Options
 As mentioned in an earlier section, the number of routes that are advertised by a bgp router is set by each `bgp network` statement. A poorly configured router that is, for example advertising 16 class C networks, could send out one route statement for each class c network, and thus send lots of unnecessary traffic to other bgp neighbors. This section will look at different ways to control the amount of BGP advertisements sent, and ways to control them.
@@ -17,6 +31,7 @@ Examining how the Summary flag works, lets look at the example of the following 
 Here, router B is sending out different route statements for each one of its class C networks. Router A sees this, and rather then passing all those separate route statements, it combines them into one aggregate route (a /22 network). Thus we spare the next router from receiving extra unnecessary route statements.
 
 1.1.1 aggregate-address summery-only command
+
 Router A Config	
 ```
 ! -- aggregate neighbors routes
@@ -80,6 +95,7 @@ Originally we learned that to advertise a class C network we could use the netwo
 If you would rather send out one aggregate route for your four class C networks, you can do this by adding the mask flag to the network statement. The following
 
 network command examples
+
 Advertising four class C networks	
 ```
 ! -- four networks
@@ -115,12 +131,12 @@ If you have a router that has multiple neighbors you can have that router "weigh
 For example, this can become very useful if you have a router with multiple BGP neighbors. For example, if you had a router that had two BGP peers, one connected via a DS3 link, and a backup connected via a T1. You would want to favor the DS3 link more, and thus weight it higher then the T1.
 
 Weight Attribute
-1f01  ! -- local weights, higher better
-1f02  bgp 10
-1f03    neighbor 200.10.50.1 remote-as 200
-1f04    neighbor 200.10.50.1 weight 50000
-1f05    neighbor 400.40.50.1 remote-as 400
-1f06    neighbor 400.40.50.1 weight 40000
+! -- local weights, higher better
+bgp 10
+  neighbor 200.10.50.1 remote-as 200
+  neighbor 200.10.50.1 weight 50000
+  neighbor 400.40.50.1 remote-as 400
+  neighbor 400.40.50.1 weight 40000
 	
 <img src="img/bgp-neighbor-weight.gif" alt="">
 
@@ -142,6 +158,7 @@ To do this, we can use the `bgp default local-preference {value}` command in bot
 We want to tell all the routers within AS10 to prefer sending outbound traffic through the A router. In this example, when traffic should be sent to the AS 400, the ibgp route table will say that it has the same number of hops to get there. But that traffic to router A is preferred. So the ibgp routers will send traffic to the A router, and then through AS 200 to get traffic to AS 400.
 
 BGP Local Pref
+
 Router A (preferred)	
 ```
 ! -- preferred, faster, outbound route.
@@ -173,6 +190,7 @@ When two AS's have multiple links with each other, one AS can tell the other whi
 The lower MED value is preferred over the higher one. 
 
 BGP MED
+
 Router A (preferred)	
 ```
 ! -- preferred, faster, outbound route.
@@ -278,6 +296,7 @@ The following is an example configuration between two load balanced routers.
 
 
 Example of load balancing
+
 Router A	
 ```
 ! -- LB Interfaces
