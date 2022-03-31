@@ -1,4 +1,4 @@
-#Routing Theory
+# Routing Theory
 
 ## General Routing Protocols:
 - [DVRP - Distance Vector Routing Protocol](dvrp-distance-vector-routing-protocol.md)
@@ -13,7 +13,7 @@
 - [BGPv4](bgpv4.md) - Border Gateway Protocol v.4
 
 ## Experiments and Configurations:
-- Experiments in RIP showing how DVRP prevents routing loops
+- [Experiments in RIP showing how DVRP prevents routing loops](experiments-in-rip-showing-how-dvrp-prevents-routing-loops.md)
 - Lab: Example of HSRP and Weighted Static Routes
 
 ## Other Routing Protocols:
