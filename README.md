@@ -10,7 +10,7 @@
 - Microsoft: It might make you feel icky using it, but sometimes, you still have to...
 - DBA Stuff: A few things related to Databases
 - [Perl](perl/README.md): Stuff on how to, examples, and cookbooks.
-- Ruby: not much
+- [Ruby](Ruby/README.md): not much
 - [Python](python/README.md): It was bound to happen
 - bash: when all you need to do is spit out commands
 - Java(script): Either/or... not much
