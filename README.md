@@ -2,7 +2,7 @@
 
 - [Ethernet and IP Notes](Networking/Eth-IP/README.md): (layers 1-3) Reviews topics related to Ethernet and IP. 
 - [Routing Theory](Networking/Eth-IP/layer3/routing-theory.md): (layers 3-4) A look at different routing protocols and how they work.
-- Wifi: protocols, db loss, etc. 
+- [Wifi](Networking/wifi/README.md): protocols, db loss, etc. 
 
 ## Server, System, and Security Topics:
 - UNIX/LINUX:  Notes on the OS, example builds, and notes on applications (ie: vi)
