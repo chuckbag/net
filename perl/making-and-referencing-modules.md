@@ -1,0 +1,2 @@
+# Making and Referencing Modules
+The required file extension for a Perl module is .pm. The module named FileHandle would be stored in the file FileHandle.pm. The full path to the file depends on your include path, which is stored in the global `@INC` variable. [Recipe 12.8](http://my.safaribooksonline.com/0596003137/perlckbk2-CHP-12-SECT-8#perlckbk2-CHP-12-SECT-8) shows how to manipulate this array for your own purposes.
