@@ -55,7 +55,7 @@
 - Monitoring: Tools to know your net.
 
 ## Other:
-- Power Standards: Plug types, local electrical standards, Watts vs. VA. etc.
+- [Power Standards](Other/PowerStandards/README.md): Plug types, local electrical standards, Watts vs. VA. etc.
 - Cable Wiring: How to run Ethernet cables, or how to interconnect Serial (RS232) devices.  (aka how do I make an adapter)
 - Fiber Jacks: Lots of different kinds out there to pick from.
 - Media Connectors: Everything from vampire taps to QSFP28 ports
