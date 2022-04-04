@@ -7,7 +7,7 @@
 ## Server, System, and Security Topics:
 - UNIX/LINUX:  Notes on the OS, example builds, and notes on applications (ie: vi)
 - [Apple](OS/apple/README.md): It's like linux, only in a nice brushed metal box!
-- Microsoft: It might make you feel icky using it, but sometimes, you still have to...
+- [Microsoft](OS/windows/README.md): It might make you feel icky using it, but sometimes, you still have to...
 - DBA Stuff: A few things related to Databases
 - [Perl](perl/README.md): Stuff on how to, examples, and cookbooks.
 - [Ruby](Ruby/README.md): not much
