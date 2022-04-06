@@ -39,7 +39,7 @@ Where:
 
 ### data from columns delimited by whitespace and with specific match
 if the directory is such: 
-```
+``` bash
 cmercier@Balsa ~/ $ ls -la
 total 112
 drwxr-xr-x  11 cmercier  staff   352B Sep 24 11:21 ./
@@ -56,7 +56,7 @@ drwxr-xr-x   6 cmercier  staff   192B May 24 22:58 ../
 ```
 
 output the first and last column, but only with including "update": 
-```
+```bash
 cmercier@Balsa ~/ $ ls -la | awk '/update/ {print $1, $9;}'
 -rwxr-xr-x@ updateHosts.sh*
 -rwxr-xr-x@ updateIptables.sh*
@@ -64,7 +64,7 @@ cmercier@Balsa ~/ $ ls -la | awk '/update/ {print $1, $9;}'
 ```
 
 Same thing, but here not the last (9th) column, but the second to last (8th) column: 
-```
+```bash
 cmercier@Balsa ~/ $ ls -la | awk '/update/ {print $1, $8;}'
 -rwxr-xr-x@ 11:28
 -rwxr-xr-x@ 11:20
@@ -73,25 +73,25 @@ cmercier@Balsa ~/ $ ls -la | awk '/update/ {print $1, $8;}'
 
 ### Break a string by a defined delimiter, and print out the columns
 View the entire hostname
-```
+```bash
 [root@dude01 ~]# hostname
 dude01.mb2.prod.chuck.com
 ```
 
 separate the fqdn by ".", and output the 3rd word
-```
+```bash
 [root@dude01 ~]# echo $HOSTNAME | awk -F. '{print $3}'
 prod
 ```
 
 separate the fqdn by ".", and output the 2nd word
-```
+```bash
 [root@dude01 ~]# echo $HOSTNAME | awk -F. '{print $2}'
 mb2
 ```
 
 separate the fqdn by ".", and output the 1st AND 4th word:
-```
+```bash
 [root@dude01 ~]# echo $HOSTNAME | awk -F. '{print $1} {print $4}'
 dude01
 chuck
@@ -99,7 +99,7 @@ chuck
 
 ### Sending awk output to variables, not console
 if you want to use awk in a script, and want the output to be assigned to a variable use the var=$() syntax
-```
+```bash
 [root@dude01 ~]# foo=$(echo $HOSTNAME | awk -F. '{print $1} {print $4}')
 [root@dude01 ~]# echo $foo
 dude01 chuck
@@ -107,7 +107,7 @@ dude01 chuck
 
 ### Comparing two files
 We can take two files, 
-```
+```bash
 $ cat file1.txt
 GERMANY
 FRANCE
@@ -120,7 +120,7 @@ GERMANY
 
 #### What Matches: 
 and output only the lines that match the two files: 
-```
+```bash
 $ awk 'FNR==NR{a[$0];next}($0 in a){print}' file1.txt file2.txt
 POLLAND
 GERMANY
@@ -137,7 +137,7 @@ Where:
 
 #### What does NOT Match: 
 We can do the opposite and see what data is in file1 that is not in file2.  
-```
+```bash
 $ awk 'FNR==NR{a[$0];next}(!($0 in a)){print}' file2.txt file1.txt
 FRANCE
 UK
@@ -145,7 +145,7 @@ $
 ```
 
 Or what's in file2  that's not in file1  (nothing!)
-```
+```bash
 $ awk 'FNR==NR{a[$0];next}(!($0 in a)){print}' file1.txt file2.txt
 $
 ```
@@ -164,7 +164,7 @@ avocado   576 kroger   5
 
 #### Pivot Sum
 The awk command would be the following: 
-```
+```bash
 awk 'BEGIN {FS=OFS=","} \
 NR>1 \
 {count[$1]++} \
@@ -173,7 +173,7 @@ $1 | sort -n
 ```
 
 And the output would look like the following: 
-```
+```bash
 $ ./pivot-file2.sh file2.csv
 apple,4
 apricot,3
@@ -185,7 +185,7 @@ blueberry,1
 
 #### Pivot Add
 The awk command would be the following: 
-```
+```bash
 awk 'BEGIN {FS=OFS=","} \
 NR>1 \
 {fruit[$1]+=$2} \
@@ -194,7 +194,7 @@ $1 | sort -n
 ```
 
 And the output would look like the following: 
-```
+```bash
 $ ./pivot-file1.sh file1.csv
 apple,185
 apricot,43
