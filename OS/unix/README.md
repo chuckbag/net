@@ -7,7 +7,7 @@
 
 ## Tools 
 DNS
-- [dns](): What it is and how to set it up.
+- [dns](dns/README.md): What it is and how to set it up.
 - [dnstracer](): view the registar and what roots resolve
 - [dig](): like nslookup only better
 
@@ -78,8 +78,8 @@ Security:
 
 Other: 
 - [snmp](snmp.md): polling and alerting tool
-- [ntpd](): Setting up your box to host or query the correct time.  
-- [nload](): view network interface traffic
+- [ntpd](ntpd.md): Setting up your box to host or query the correct time.  
+- [nload](nload.md): view network interface traffic
 - UNetbootin allows you to create bootable Live USB drives for Ubuntu, Fedora, and other Linux distributions without burning a CD. It runs on both Windows and Linux.
 - Infra Recorder: a free opensource Image/CD Burning program
 - Network monitoring on Linux: 
