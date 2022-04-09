@@ -1,0 +1,35 @@
+// BIND configuration file
+
+options {
+                directory "/var/named/chroot/var';
+                // Place additional options here.
+};
+
+zone "cmed.us" in {
+                type master;
+                file "db.cmed";
+};
+
+zone "0.18.198.in-addr.arpa" in {
+                type master;
+                file "db.198.18.0";
+};
+
+zone "1.18.198.in-addr.arpa" in {
+                type master;
+                file "db.198.18.1";
+};
+
+zone "2.18.198.in-addr.arpa" in {
+                type master;
+                file "db.198.18.2";
+};
+
+zone "0.0.127.in-addr.arpa" in {
+                type master;
+                file "db.127.0.0";
+
+zone "." in {
+                type hint;
+                file "db.cashe";
+};

@@ -8,8 +8,8 @@
 ## Tools 
 DNS
 - [dns](dns/README.md): What it is and how to set it up.
-- [dnstracer](): view the registar and what roots resolve
-- [dig](): like nslookup only better
+- [dnstracer](dns/dnstracer.md): view the registar and what roots resolve
+- [dig](dns/dig.md): like nslookup only better
 
 ICMP
 - [fping](fping.md) is a pinging utility that will sweep ip ranges.

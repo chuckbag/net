@@ -7,9 +7,9 @@ Overview on Bind:
 
 Building bind
 - [Bind on Centos7](bind-on-centos7.md): Bind 9 install and configuration
-- [Bind-Chrooted on Centos7](): Bind 9 install and configuration
+- [Bind-Chrooted on Centos7](bind9-chrooted-on-centos7.md): Bind 9 install and configuration
 
 Configuring Bind
-- [Centos named](): Bind running on a Centos Server
-- [Gentoo named](): Bind running on a Gentoo Server
+- [Centos named](centos-named.md): Bind running on a Centos Server
+- [Gentoo named](gentoo-named.md): Bind running on a Gentoo Server
 
