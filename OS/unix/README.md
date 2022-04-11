@@ -1,31 +1,45 @@
 # Unix / Linux
 
-
+- [Unix / Linux](#unix--linux)
+  - [Tools](#tools)
+    - [DNS](#dns)
+    - [ICMP](#icmp)
+    - [Site Analysis](#site-analysis)
+    - [Shell Scripts:](#shell-scripts)
+  - [System Deployments:](#system-deployments)
+  - [VM Services:](#vm-services)
+  - [Services](#services)
+    - [Revision Control](#revision-control)
+    - [File Transfers and Manipulation:](#file-transfers-and-manipulation)
+    - [Shell level stuff:](#shell-level-stuff)
+    - [Security:](#security)
+    - [Other:](#other)
+    - [Services:](#services-1)
 
 
 [<img src="img/linux-tools.jpeg" width="300">](img/linux-tools.jpeg)
 
 ## Tools 
-DNS
+### DNS
 - [dns](dns/README.md): What it is and how to set it up.
 - [dnstracer](dns/dnstracer.md): view the registar and what roots resolve
 - [dig](dns/dig.md): like nslookup only better
 
-ICMP
+### ICMP
 - [fping](fping.md) is a pinging utility that will sweep ip ranges.
 - [mtr](http://www.bitwizard.nl/mtr/): pinging and traceroute
 
-Site Analysis
-- [nmap](): Scan IP/Ports on a network
-- [zmap](): Scan IP/Ports on a network 
-- [ipcalc](): compute network ranges around IP/Masks
-- [netperf](): send traffic between two hosts, and review the behavior of the network
-- [tcpdump](): capture packets seen by your machine
-- [dummynet](): WAN traffic emulation tool
-- [watch](): View via cli interface traffic
-- [ntopng](): IP Flow for your hosts
+### Site Analysis
+- [nmap](nmap.md): Scan IP/Ports on a network
+- [zmap](zmap.md): Scan IP/Ports on a network 
+- ipcalc: compute network ranges around IP/Masks
+- netperf: send traffic between two hosts, and review the behavior of the network
+- [tcpdump](tcpdump.md): capture packets seen by your machine
+- dummynet: WAN traffic emulation tool
+- [watch](watch.md): View via cli interface traffic
+- [ntopng](ntopng.md): IP Flow for your hosts
 
-Shell Scripts: 
+### Shell Scripts: 
 - [Perl](../../perl/README.md): 
 - [Python](../../python/README.md): 
 - [Java](../../Java/README.md):
@@ -48,11 +62,11 @@ Shell Scripts:
 
 ## Services
 
-Revision Control
-- [git](): A good revision control system for code.  (does not deal with larger binaries very well.) 
-- [subversion](): Not as good as git for some things, but holds binaries better. 
+### Revision Control
+- [git](../../App/Git/README.md): A good revision control system for code.  (does not deal with larger binaries very well.) 
+- [subversion](../../App/Subversion/README.md): Not as good as git for some things, but holds binaries better. 
 
-File Transfers and Manipulation: 
+### File Transfers and Manipulation: 
 - [rsync](rsync.md): A fantastic copy tool.
 - [sshpass](sshpass.md): How to run ssh commands without getting prompted for a pass
 - [tftp](tftp.md): The steps for setting up a TFTP daemon on your server.
@@ -63,7 +77,7 @@ File Transfers and Manipulation:
 - [nfs](nfs.md): mounting remote volumes locally
 - [using Tapes (LTO)](using-tapes-lto.md): how to get a tape storage device working
 
-Shell level stuff: 
+### Shell level stuff: 
 - [bash](bash/README.md): Your shell and how to modify it. 
 - [fancy shell commands](http://www.commandlinefu.com/commands/browse/sort-by-votes): Things you didn't know you could do.
 - [screen](screen.md): multiple sessions on one window.  Also helps with disconnecting wan links.
@@ -72,11 +86,11 @@ Shell level stuff:
 - [Diffing tools](diffing-tools.md): A couple of them out there...
 - [sudo](sudo.md): allowing folks to do rooty stuff
 
-Security: 
-- [iptables](): edge firewalling
-- [SELinux](): To the Death!  No! To the Pain!
+### Security: 
+- [iptables](iptables.md): edge firewalling
+- [SELinux](selinux.md): To the Death!  No! To the Pain!
 
-Other: 
+### Other: 
 - [snmp](snmp.md): polling and alerting tool
 - [ntpd](ntpd.md): Setting up your box to host or query the correct time.  
 - [nload](nload.md): view network interface traffic
@@ -84,15 +98,16 @@ Other:
 - Infra Recorder: a free opensource Image/CD Burning program
 - Network monitoring on Linux: 
 
-Services: 
-- [cron](): running scripts at specific times
-- [syslog](): local and remote logging
-- [syslog-ng](): How to setup a syslog service
-- Apache: how to setup and debug
-- [ansible](): central management of everything!
-- [rsnapshot](): never tarball your backups again!
-- [tftp server]()
-- cacti install on Centos, and how to fully deploy cacti:
-- [git repo](): so you can backup your files
-- PXE/Jumpstart server: get all your other boxes booted easily
-- BIND9, or BIND9-Chrooted: dns
+### Services: 
+- [cron](cron.md): running scripts at specific times
+- [syslog](syslog.md): local and remote logging
+- [syslog-ng](syslog-ng.md): How to setup a syslog service
+- [Apache](../../App/apache/README.md): how to setup and debug
+- [ansible](../../App/ansible/README.md): central management of everything!
+- [rsnapshot](https://rsnapshot.org/): never tarball your backups again!
+- [tftp server](tftp.md)
+- [cacti install](../../App/cacti/cacti-install.md) on Centos, and [how to fully deploy cacti](../../App/cacti/README.md):
+- [git repo](git/README.md): so you can backup your files
+- [PXE/Jumpstart server](pxejumpstart-server.md): get all your other boxes booted easily
+- [BIND9](dns/bind-on-centos7.md), or [BIND9-Chrooted](dns/bind9-chrooted-on-centos7.md): dns
+
