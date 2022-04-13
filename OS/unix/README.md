@@ -107,7 +107,7 @@
 - [rsnapshot](https://rsnapshot.org/): never tarball your backups again!
 - [tftp server](tftp.md)
 - [cacti install](../../App/cacti/cacti-install.md) on Centos, and [how to fully deploy cacti](../../App/cacti/README.md):
-- [git repo](git/README.md): so you can backup your files
+- [git repo](../../App/Git/README.md): so you can backup your files
 - [PXE/Jumpstart server](pxejumpstart-server.md): get all your other boxes booted easily
 - [BIND9](dns/bind-on-centos7.md), or [BIND9-Chrooted](dns/bind9-chrooted-on-centos7.md): dns
 
