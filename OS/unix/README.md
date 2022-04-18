@@ -50,15 +50,15 @@
 - [10 Tools To Add Some Spice To Your UNIX Shell Scripts](http://www.cyberciti.biz/tips/spice-up-your-unix-linux-shell-scripts.html).  by Vivek Git
 
 ## System Deployments:
-- Gentoo Systems: a bare-bones linux distro that is really nice to work with
-- Centos Systems: A free version of redhat
-- RedHat Systems: The commercial linux distribution
-- Brew: Mac Linux
+- [Gentoo Systems](gentoo/README.md): a bare-bones linux distro that is really nice to work with
+- [Centos Systems](centos/README.md): A free version of redhat
+- [RedHat Systems](RH/README.md): The commercial linux distribution
+- [Brew](brew.md): Mac Linux
 
 ## VM Services:
-- Oracle VM VirtualBox: A vm server for windows or linux.
-- KVM: running under centos
-- HP Blade Management: Commands you can use to view status of blades/chassis
+- [Oracle VM VirtualBox](VirtualBox/README.md): A vm server for windows or linux.
+- [KVM](kvm/README.md): running under centos
+- [HP Blade Management](hp-blade-management.md): Commands you can use to view status of blades/chassis
 
 ## Services
 
@@ -94,9 +94,7 @@
 - [snmp](snmp.md): polling and alerting tool
 - [ntpd](ntpd.md): Setting up your box to host or query the correct time.  
 - [nload](nload.md): view network interface traffic
-- UNetbootin allows you to create bootable Live USB drives for Ubuntu, Fedora, and other Linux distributions without burning a CD. It runs on both Windows and Linux.
-- Infra Recorder: a free opensource Image/CD Burning program
-- Network monitoring on Linux: 
+- [UNetbootin](http://unetbootin.sourceforge.net/) allows you to create bootable Live USB drives for Ubuntu, Fedora, and other Linux distributions without burning a CD. It runs on both Windows and Linux.
 
 ### Services: 
 - [cron](cron.md): running scripts at specific times
