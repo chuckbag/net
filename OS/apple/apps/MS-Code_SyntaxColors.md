@@ -5,12 +5,12 @@
 - [Text Scopes](#text-scopes)
   - [How is the Text Defined?](#how-is-the-text-defined)
   - [Find the scope def](#find-the-scope-def)
-  - [Find undefined scopes](#find-undefined-scopes)
+  - [Undefined scopes](#undefined-scopes)
     - [Overview](#overview-1)
     - [Find defined scopes](#find-defined-scopes)
     - [Confirm which have scopes defined in your theme](#confirm-which-have-scopes-defined-in-your-theme)
     - [Create your own scope with its own color](#create-your-own-scope-with-its-own-color)
-    - [Wanting to create a scope with it's own background color?](#wanting-to-create-a-scope-with-its-own-background-color)
+  - [Wanting to create a scope with it's own background color?](#wanting-to-create-a-scope-with-its-own-background-color)
 - [References:](#references)
 
 # Overview: 
@@ -76,7 +76,7 @@ It will show you the settings for that, where you can modify the color codes for
 
 Once you make a change to the style, you will need to reload MS Code for the color changes to take affect.  
 
-## Find undefined scopes
+## Undefined scopes
 
 ### Overview
 Yea, these exist.  There are plenty of places that are defined in the code, but do not have a color definition (css scope).  
@@ -121,7 +121,7 @@ Then after restarting Code, when I look back at the link, I see that they are al
 
 <img src="img/2022-03-24_22-42-15.png" alt="proof that the color change works">
 
-### Wanting to create a scope with it's own background color? 
+## Wanting to create a scope with it's own background color? 
 If you want to create a scope that has a different background color (like highlighting), [your a bit out of luck](https://github.com/microsoft/vscode/issues/113478).  It seems that [this is a request that has been out there for a long while](https://github.com/microsoft/vscode/issues/3429), but Microsoft has yet to enable it.  
 
 Currently, if you attempt this, you will get the following error. 
