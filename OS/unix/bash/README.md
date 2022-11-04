@@ -14,4 +14,4 @@ Scripting:
 - [sed/awk](../sedawk.md): Auuughhh!!!
 - [Command output to a variable](command-output-to-a-variable.md): 
 - [Running commands in the background](running-commands-in-the-background.md): poor mans screen.
-
+- [echo with color - printf](printf-examples.md): more flexible shell output 
