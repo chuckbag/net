@@ -11,6 +11,10 @@
     - [Confirm which have scopes defined in your theme](#confirm-which-have-scopes-defined-in-your-theme)
     - [Create your own scope with its own color](#create-your-own-scope-with-its-own-color)
   - [Wanting to create a scope with it's own background color?](#wanting-to-create-a-scope-with-its-own-background-color)
+    - [Extension: Highlight](#extension-highlight)
+      - [Install Extension](#install-extension)
+      - [Add Extension Settings](#add-extension-settings)
+      - [Add Phrase to Highlight](#add-phrase-to-highlight)
 - [References:](#references)
 
 # Overview: 
@@ -128,12 +132,15 @@ Currently, if you attempt this, you will get the following error.
 
 <img src="img/103178958-85af0200-4898-11eb-8ee1-7c95335a67cc.png" alt="example showing how background colors are not supported">
 
+### Extension: Highlight
 The best solution I have found is [Highlight by Fabio Spampinato](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight).  
 
+#### Install Extension
 To install, select the extensions icon (1),then search for highlight (2), and select the highlight extension (3), and install (4). 
 
 <a href="img/2022-10-05_10-05-03.png"><img src="img/2022-10-05_10-05-03.png" width="200" alt="example showing how to install the extension"></a>
 
+#### Add Extension Settings
 Then you will need to [modify the settings](https://code.visualstudio.com/docs/getstarted/settings#:~:text=Where%20can%20I%20find%20extension,Open%20Settings%20(JSON)).) so that it will highlight the correct phrasing.  
 
 - Main Menu: Code: Preferences: Settings: Extensions: Highlight: Edit in settings.json
@@ -182,8 +189,26 @@ Then in the `settings.json` file, add the configs outlined in the [highlight set
           }
     }
 ```
-Then in your code terminal, everytime you enter `//TODO` it will highlight it and the following text yellow up until the carriage return. 
+Then in your code terminal, every time you enter `//TODO` it will highlight it and the following text yellow up until the carriage return. 
 
+#### Add Phrase to Highlight
+If you want to add new phrases to highlight, you can go back into the settings file, and add additional phrases to search and highlight, and you can specify what colors to highlight them with.  
+
+
+```
+            "(// ?FOLLOWUP:?)(.*)": [
+              {
+                "overviewRulerColor": "#84f905",
+                "backgroundColor": "#84f905",
+                "color": "#1f1f1f",
+                "fontWeight": "bold"
+              },
+              {
+                "backgroundColor": "#d9ad00",
+                "color": "#1f1f1f"
+              }
+            ],
+```
 
 # References: 
 - https://www.youtube.com/watch?v=Su-cNLe0dgw
