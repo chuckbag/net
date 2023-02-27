@@ -25,7 +25,7 @@ visual code Studio from Microsoft.  Ok, that's maybe a better text editor.... (p
 - [Snagit](https://www.techsmith.com/snagit.html): Screen capture and image markup tool
 - [New File Menu](https://itunes.apple.com/us/app/new-file-menu/id1064959555?mt=12): allows you to right-click add test files in directories (simple but needed)
 - [XQuartz](http://net.cmed.us/Home/apple/apps/xquartz): Xterm for Mac
-- [QCAD](http://net.cmed.us/Home/apple/apps/qcad): 2D CAD software for linux
+- [QCAD](../../App/qcad/basic-overview.md): 2D CAD software for linux
 - [MakeMKV](https://www.makemkv.com/download/) and [Handbrake](https://handbrake.fr/downloads.php) for ripping DVD's
 - [p4merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge) is the best diffing app out there
 - [iStat Menu](https://itunes.apple.com/us/app/istat-menus/id1319778037?mt=12) is arguably a waste of money, but I really like using it to see the stats of my mac
