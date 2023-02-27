@@ -60,4 +60,5 @@ root@%
 ```
 
 ## References: 
+- [[SRX] Getting Started - Factory Reset](https://supportportal.juniper.net/s/article/SRX-Getting-Started-Factory-Reset?language=en_US): Using the factory reset button on select SRX firewalls. 
 - [Rebooting the Device with the CLI](https://www.juniper.net/techpubs/software/junos-es/junos-es92/junos-es-admin-guide/rebooting-the-device-with-the-cli.html): 
