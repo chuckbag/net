@@ -45,6 +45,9 @@
 - [syslogging](syslogging.md): setting up, and sending to a remote server
 - [BGP](bgp.md): how to setup and confirm bgp is working
 
+## Other Examples: 
+- [Minecraft Server](minecraftserver.md): shows how to add inbound and outbound policies and NATs to enable a server inside an SRX
+
 ## Troubleshooting
 - [Watching Flows](watching-flows.md): how to view flows on a SRX
 - [creating pcaps](creating-pcaps.md): How to capture traffic and offload it for post analysis

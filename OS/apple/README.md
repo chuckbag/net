@@ -7,6 +7,7 @@
 - [Enable TFTP](platform-howto/enable-tftp.md): How to use the built-in tftp server on a mac
 - [SSHing to your box](platform-howto/sshing-to-your-box.md): How to enable the mac to serve sshd externally
 - [remapping the keyboard](platform-howto/remapping-the-keyboard.md): how to customize what each key does
+- [brew](platform-howto/brew-basics.md): Application Package management for Apple
 
 ## App Howto's
 - [OmniGraffle](apps/onmigraffle.md): Drawing and using scripting
