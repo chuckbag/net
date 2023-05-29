@@ -10,12 +10,13 @@
     - [ansible/playbooks/ntpd.yml](#ansibleplaybooksntpdyml)
     - [Updating the path to the roles](#updating-the-path-to-the-roles)
   - [Output](#output)
+- [References:](#references)
 
 Rolls allow us to break the playbook up into a couple of additional files, and then sort them in a specific directory structure to ensure everything is easy to find. They are also called by other playbooks, so it's easy to have a large collection of roles and use them in mass from larger playbooks.
 
 A quick breakdown of a role could be seen here, and a reference to this mapping can be found in the document [An Ansible2 Tutorial](https://serversforhackers.com/c/an-ansible2-tutorial) Feb 2018
 
-<img src="../img/roles.png" width="300px">
+<a href="../img/roles.png"><img src="../img/roles.png" width="300px"></a>
 
 ## Configuration
 The first step is to create the directory structure for the roles. An overview of the folders is noted below, but you can easily create them by entering the following command in the `roles` directory:
@@ -96,7 +97,8 @@ foreman05.fhm.dev.cmed.com
 
 This is the old playbook from before, but in this version, we moved the handlers section out and moved it to the `handlers/main.yml` doc.
 
-We can change the path of the src file for the template command, and remove all the path info, since we are moving the it into the local template directory. We can also change the ntpdate command to poll the local ntp server, rather then a public host that might not be allowed through the firewall.
+We can change the path of the src file for the `template` command, and remove all the path info, since we are moving the it into the local template directory. We can also change the ntpdate command to poll the local ntp server, rather then a public host that might not be allowed through the firewall.  To confirm, the `notify` command will restart the ntpd service once the new ntpd config is installed on the server.  
+
 ```yml
 --- # Make sure that NTP is working properly on all systems
 
@@ -243,3 +245,5 @@ Note that the error above is no biggie. It's just throwing this because the loca
 [root@test01 ~]#
 ```
 
+# References: 
+- [Handlers: running operations on change](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_handlers.html): Details on the `notify` command.  

@@ -507,14 +507,17 @@ Then enter in all the applications you want to install together.  In this exampl
       state: latest
 ```
 
-To review the format of the file above, we start with which hosts this will run against.  In this case, we’re looking to run this on all the “tests” the hosts
+To review the format of the file above, we start with the hosts this will run against.  In this case, we’re looking to run this on all the hosts in the “tests” group
 ```yml
 --- # install or update all the apps I would like to have on mgmt hosts
 - hosts: tests
   tasks:
 ```
 
-The module call first starts off with the name, explaining what is being done.  Then is the module call, in this example running a yum module.  We can format the arguments for yum either by listing them underneath the yum call like so
+The module call first starts off with the name, explaining what is being done.  Then is the module call, here using the yum module.  
+
+We can format the arguments for the module (yum) either by listing them one per line like the `name` and `state` below
+
 ```yml
   - name : install nmap
     yum:
@@ -528,7 +531,8 @@ Or you can put the arguments in a line after the module name, and separate them 
     yum: name=nmap state=latest
 ```
 
-Then we can simply run the playbook, and it will follow all of the instructions and get the work done. 
+Running the playbook will go through each task, and list their names out as they are being run.  
+
 ```bash
 [root@boss01 ~]# ansible-playbook -i /root/ansible/hosts /root/ansible/management.yml
 
@@ -567,9 +571,11 @@ PLAY RECAP *********************************************************************
 
 
 ### Using Playbooks to Install, configure, and enable (including handlers)
-But playbooks can do more than install or keep apps up to date.  You can also use them to enable services (make them active), and (as we learned above), we can even update their configs.  
+Playbooks can do more than install or keep apps up to date.  You can also use them to enable services (make them active), and (as we learned above), we can even update their configs.  
 
-In this example we will deploy ntp on a remote server, but to do this, we will need to have a config file for ntp, so we will create a directory, and put our ntp configuration into it.  
+In this example we will deploy ntp on a remote server.  This will include a standard ntp install, us pushing a custom ntp config file onto the server, and then us enabling ntpd.  
+
+We store the config file in the `templates` file
 ```bash
 [root@boss01 ~]# mkdir /root/ansible/templates
 [root@boss01 ~]# vim /root/ansible/templates/mb2-ntp.conf # and create the file

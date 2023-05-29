@@ -11,6 +11,7 @@
 ### Match a domain name
 
 The playbook first collects the contents of the "ansible_domain" variable, and the debug command prints out the domain.  Then it checks to see if that 
+
 ```yml
 ---
 # collect some data from the host, depending on the data collected, do something. 
@@ -35,7 +36,9 @@ The playbook first collects the contents of the "ansible_domain" variable, and t
 
 ...
 ```
+
 If we run it on one test machine that does not match either of the domains, it skips the "check" task
+
 ```yml
 cm@Balsa ~/ansible $ ansible-playbook  playbooks/condition-do.yml
 
@@ -60,8 +63,10 @@ localhost                  : ok=2    changed=0    unreachable=0    failed=0    s
 
 cm@Balsa ~/ansible $ 
 ```
+
 If it runs on a host that does match, then it runs the task that matches.  
 In this case, the domain output is "`mb2.prod.cmed.us`" which is matched in the second task.  With that match, the task prints out the message "`>> this is in MB2`", but you could modify that task so it would run a different module or even a role.  
+
 ```bash
 [root@boss01 ansible]# ansible-playbook condition-do.yml
 
@@ -91,6 +96,7 @@ localhost                  : ok=3    changed=0    unreachable=0    failed=0    s
 
 ### Match a collection of hosts
 If many hosts all share a similar prefix, you can grep them all out and do something with them.  In this example, we are going to search the hostname, and match on part of the name.  If there is a match, then we will do something.  
+
 ```yml
 ---
 # only do something to hosts with common names
@@ -111,6 +117,7 @@ If many hosts all share a similar prefix, you can grep them all out and do somet
 ```
 
 An example of a match: 
+
 ```bash
 # ansible-playbook playbooks/condition-hostgroup.yml -i 10.33.128.200, --user root --ask-pass
 SSH password:
@@ -137,6 +144,7 @@ PLAY RECAP *********************************************************************
 ```
 
 An example of a non-match: 
+
 ```bash
 # ansible-playbook playbooks/condition-hostgroup.yml -i 10.33.128.150, --user root --ask-pass
 SSH password:

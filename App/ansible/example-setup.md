@@ -1,5 +1,17 @@
 # Ansible Example Setup
 
+<table><tr><td>
+
+- [Ansible Example Setup](#ansible-example-setup)
+  - [Overview:](#overview)
+  - [Install](#install)
+  - [Setup SSH keys](#setup-ssh-keys)
+  - [Configure](#configure)
+    - [Define servers to work with](#define-servers-to-work-with)
+  - [References:](#references)
+
+</td></tr></table>
+
 ## Overview:
 Procedures for how to install Ansible (2.x) on a centos host.  
 
