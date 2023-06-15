@@ -53,7 +53,7 @@
 - [Gentoo Systems](gentoo/README.md): a bare-bones linux distro that is really nice to work with
 - [Centos Systems](centos/README.md): A free version of redhat
 - [RedHat Systems](RH/README.md): The commercial linux distribution
-- [Brew](brew.md): Mac Linux
+- [Brew](../apple/platform-howto/brew-basics.md): Mac Linux
 
 ## VM Services:
 - [Oracle VM VirtualBox](VirtualBox/README.md): A vm server for windows or linux.
