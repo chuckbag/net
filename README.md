@@ -16,15 +16,14 @@
 - [Java(script)](Java/README.md): Either/or... not much
 - [RegExp](Other/regexp.md): notes on your favorite match command
 - [sed/awk](OS/unix/sedawk.md): Auuughhh!!!
-- ssl certs: things to know about certs.
-- Security related topics
+- [Security related topics](security/README.md)
 
 ## Specific Vendor Stuff:
 - Cisco: Some specific Cisco items.
 - [Juniper](Networking/juniper/README.md): Some notes on the Juniper product line
 - F5: Load Balancers. 
-- Arista: Fast switches!
-- Aruba: Not just Wifi!
+- [Arista](Networking/arista/README.md): Fast switches!
+- [Aruba](Networking/aruba/README.md): Not just Wifi!
 - Splunk: Google for syslog
 - Riverbed: WAN Speedup devices
 - Palo Alto: Nice Firewalls!
