@@ -10,8 +10,8 @@
 - [brew](platform-howto/brew-basics.md): Application Package management for Apple
 
 ## App Howto's
-- [OmniGraffle](apps/onmigraffle.md): Drawing and using scripting
-- [Microsoft Visual Studio Code](apps/MS-Code.md):
+- [OmniGraffle](apps/onmigraffle.md): Drawing and using scripting 
+- [Microsoft Visual Studio Code](apps/MS-Code.md): (sigh) .. yea.. The IDE is actually really good....
 
 
 ## Apps to Note: 
@@ -34,4 +34,3 @@ visual code Studio from Microsoft.  Ok, that's maybe a better text editor.... (p
 - [SimpleMind](https://simplemind.eu/): A good mind map program
 - [NTFS for Mac](https://www.paragon-software.com/home/ntfs-mac/): if you want to mount ntfs volumes and write to them (usb drives) you need this.  
 - [Wifi Explorer](https://www.adriangranados.com/): free wifi scanner
-- [Microsoft Visual Studio Code](https://visualstudio.microsoft.com/downloads/): (sigh) .. yea.. The IDE is actually really good....
