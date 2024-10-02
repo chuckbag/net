@@ -1,29 +1,29 @@
 ## Networking Protocols:
 
-- [Ethernet and IP Notes](Networking/Eth-IP/README.md): (layers 1-3) Reviews topics related to Ethernet and IP. 
-- [Routing Theory](Networking/Eth-IP/layer3/routing-theory.md): (layers 3-4) A look at different routing protocols and how they work.
-- [Wifi](Networking/wifi/README.md): protocols, db loss, etc. 
+- [Ethernet and IP Notes](MORE/Networking/Eth-IP/README.md): (layers 1-3) Reviews topics related to Ethernet and IP. 
+- [Routing Theory](MORE/Networking/Eth-IP/layer3/routing-theory.md): (layers 3-4) A look at different routing protocols and how they work.
+- [Wifi](MORE/Networking/wifi/README.md): protocols, db loss, etc. 
 
 ## Server, System, and Security Topics:
-- [UNIX/LINUX](OS/unix/README.md):  Notes on the OS, example builds, and notes on applications (ie: vi)
-- [Apple](OS/apple/README.md): It's like linux, only in a nice brushed metal box!
-- [Microsoft](OS/windows/README.md): It might make you feel icky using it, but sometimes, you still have to...
+- [UNIX/LINUX](MORE/OS/unix/README.md):  Notes on the OS, example builds, and notes on applications (ie: vi)
+- [Apple](MORE/OS/apple/README.md): It's like linux, only in a nice brushed metal box!
+- [Microsoft](MORE/OS/windows/README.md): It might make you feel icky using it, but sometimes, you still have to...
 - DBA Stuff: A few things related to Databases
-- [Perl](perl/README.md): Stuff on how to, examples, and cookbooks.
-- [Ruby](Ruby/README.md): not much
-- [Python](python/README.md): It was bound to happen
-- [bash](OS/unix/bash/README.md): when all you need to do is spit out commands
-- [Java(script)](Java/README.md): Either/or... not much
-- [RegExp](Other/regexp.md): notes on your favorite match command
-- [sed/awk](OS/unix/sedawk.md): Auuughhh!!!
-- [Security related topics](security/README.md)
+- [Perl](MORE/perl/README.md): Stuff on how to, examples, and cookbooks.
+- [Ruby](MORE/Ruby/README.md): not much
+- [Python](MORE/python/README.md): It was bound to happen
+- [bash](MORE/OS/unix/bash/README.md): when all you need to do is spit out commands
+- [Java(script)](MORE/Java/README.md): Either/or... not much
+- [RegExp](MORE/Other/regexp.md): notes on your favorite match command
+- [sed/awk](MORE/OS/unix/sedawk.md): Auuughhh!!!
+- [Security related topics](MORE/security/README.md)
 
 ## Specific Vendor Stuff:
 - Cisco: Some specific Cisco items.
-- [Juniper](Networking/juniper/README.md): Some notes on the Juniper product line
+- [Juniper](MORE/Networking/juniper/README.md): Some notes on the Juniper product line
 - F5: Load Balancers. 
-- [Arista](Networking/arista/README.md): Fast switches!
-- [Aruba](Networking/aruba/README.md): Not just Wifi!
+- [Arista](MORE/Networking/arista/README.md): Fast switches!
+- [Aruba](MORE/Networking/aruba/README.md): Not just Wifi!
 - Splunk: Google for syslog
 - Riverbed: WAN Speedup devices
 - Palo Alto: Nice Firewalls!
@@ -42,28 +42,28 @@
 - VMWare: Burning up memory and diskspace for badly written applications
 
 ## Application and Service Notes:
-- [Subversion](App/Subversion/README.md): It's true, I use it.  Even though Linus thinks we're all idiots. 
-- [Git](App/Git/README.md): Like subversion, but Linus likes it.
-- Vim, and EditPlus: Both great text editing tools, but for some things being outclassed by [Visual Studio Code](OS/apple/apps/MS-Code.md).
+- [Subversion](MORE/App/Subversion/README.md): It's true, I use it.  Even though Linus thinks we're all idiots. 
+- [Git](MORE/App/Git/README.md): Like subversion, but Linus likes it.
+- Vim, and EditPlus: Both great text editing tools, but for some things being outclassed by [Visual Studio Code](MORE/OS/apple/apps/MS-Code.md).
 - GNS3: Virtual router lab for running tests
 - Synergy: Two computers, each with their own monitor, but one keyboard and mouse!
 - GPG: Is it still vogue to prevent folks from knowing everything about you?
-- [Bind](OS/unix/dns/README.md): no need to rely on your providers DNS.
+- [Bind](MORE/OS/unix/dns/README.md): no need to rely on your providers DNS.
 - SNMP: How to "simply" monitor other systems.
 - WAN Protocols: How to push lots of data over long hauls without the TCP latency issues.
 - Monitoring: Tools to know your net.
 
 ## Other:
-- [Power Standards](Other/PowerStandards/README.md): Plug types, local electrical standards, Watts vs. VA. etc.
-- [Cable Wiring](Other/cableWiring/README.md): How to run Ethernet cables, or how to interconnect Serial (RS232) devices.  (aka how do I make an adapter)
-- [Fiber Jacks](Other/fiber-jacks.md): Lots of different kinds out there to pick from.
-- [Media Connectors](Other/physicalMedia.md): Everything from vampire taps to QSFP28 ports
-- [ICAO Alphabet Codes](Other/icao-alphabet-codes.md): The International Civil Aviation Organization code for the alphabet.
+- [Power Standards](MORE/Other/PowerStandards/README.md): Plug types, local electrical standards, Watts vs. VA. etc.
+- [Cable Wiring](MORE/Other/cableWiring/README.md): How to run Ethernet cables, or how to interconnect Serial (RS232) devices.  (aka how do I make an adapter)
+- [Fiber Jacks](MORE/Other/fiber-jacks.md): Lots of different kinds out there to pick from.
+- [Media Connectors](MORE/Other/physicalMedia.md): Everything from vampire taps to QSFP28 ports
+- [ICAO Alphabet Codes](MORE/Other/icao-alphabet-codes.md): The International Civil Aviation Organization code for the alphabet.
 - [UN/LOCODE](http://www.unece.org/cefact/locode/service/location.html): UN Codes for countries and cities/towns
 - Datacenter Info: What is the difference between T1/T4, what should you look for when selecting, what questions should you ask? 
 - Datacenter Tiers: What's the difference between a T1 and T4 Datacenter?
-- [Racking, Wiring, and Tracking Equipment Properly](Other/Racks/README.md). How to build/layout cabinets properly
-- [Diagramming tools](App/diagramming-tools.md): couple of ways to document a wiring topology. 
+- [Racking, Wiring, and Tracking Equipment Properly](MORE/Other/Racks/README.md). How to build/layout cabinets properly
+- [Diagramming tools](MORE/App/diagramming-tools.md): couple of ways to document a wiring topology. 
 - Google Sites.  some (few) hints on using google sites
 
 ## Network Resources:
