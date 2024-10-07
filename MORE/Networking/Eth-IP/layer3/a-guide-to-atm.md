@@ -81,6 +81,7 @@ Graphics and HTML by Joshua McCloy
 ## 1. ATM Layers
 
 This is a rough comparison, since ATM does not fit perfectly into the OSI model
+
 <img src="img/atm01.gif" alt="">
 
 Example of errors

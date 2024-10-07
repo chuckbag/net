@@ -19,7 +19,7 @@
 - [Security related topics](MORE/security/README.md)
 
 ## Specific Vendor Stuff:
-- Cisco: Some specific Cisco items.
+- [Cisco](MORE/Networking/cisco/README.md): Some specific Cisco items.
 - [Juniper](MORE/Networking/juniper/README.md): Some notes on the Juniper product line
 - F5: Load Balancers. 
 - [Arista](MORE/Networking/arista/README.md): Fast switches!
@@ -42,15 +42,15 @@
 - VMWare: Burning up memory and diskspace for badly written applications
 
 ## Application and Service Notes:
-- [Subversion](MORE/App/Subversion/README.md): It's true, I use it.  Even though Linus thinks we're all idiots. 
+- [Subversion](MORE/App/Subversion/README.md): It's true, I use it.  Even though [Linus thinks we're all idiots](https://www.youtube.com/watch?v=4XpnKHJAok8). 
 - [Git](MORE/App/Git/README.md): Like subversion, but Linus likes it.
-- Vim, and EditPlus: Both great text editing tools, but for some things being outclassed by [Visual Studio Code](MORE/OS/apple/apps/MS-Code.md).
+- [Vim](MORE/App/VIM/README.md), and [EditPlus](MORE/OS/windows/app/editplus.md): Both great text editing tools, but for some things being outclassed by [Visual Studio Code](MORE/OS/apple/apps/MS-Code.md).
 - GNS3: Virtual router lab for running tests
 - Synergy: Two computers, each with their own monitor, but one keyboard and mouse!
 - GPG: Is it still vogue to prevent folks from knowing everything about you?
 - [Bind](MORE/OS/unix/dns/README.md): no need to rely on your providers DNS.
-- SNMP: How to "simply" monitor other systems.
-- WAN Protocols: How to push lots of data over long hauls without the TCP latency issues.
+- [SNMP](MORE/App/snmp.md): How to "simply" monitor other systems.
+- [WAN Protocols](MORE/Networking/Eth-IP/layer3/wanProtocols.md): How to push lots of data over long hauls without the TCP latency issues.
 - Monitoring: Tools to know your net.
 
 ## Other:
@@ -60,11 +60,9 @@
 - [Media Connectors](MORE/Other/physicalMedia.md): Everything from vampire taps to QSFP28 ports
 - [ICAO Alphabet Codes](MORE/Other/icao-alphabet-codes.md): The International Civil Aviation Organization code for the alphabet.
 - [UN/LOCODE](http://www.unece.org/cefact/locode/service/location.html): UN Codes for countries and cities/towns
-- Datacenter Info: What is the difference between T1/T4, what should you look for when selecting, what questions should you ask? 
-- Datacenter Tiers: What's the difference between a T1 and T4 Datacenter?
+- [Datacenter Tiers](MORE/Other/datacenter-tiers.md): What's the difference between a T1 and T4 Datacenter?
 - [Racking, Wiring, and Tracking Equipment Properly](MORE/Other/Racks/README.md). How to build/layout cabinets properly
 - [Diagramming tools](MORE/App/diagramming-tools.md): couple of ways to document a wiring topology. 
-- Google Sites.  some (few) hints on using google sites
 
 ## Network Resources:
 - [IEEE OUI's](http://standards.ieee.org/regauth/oui/index.shtml)
