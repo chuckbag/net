@@ -34,3 +34,4 @@ visual code Studio from Microsoft.  Ok, that's maybe a better text editor.... (p
 - [SimpleMind](https://simplemind.eu/): A good mind map program
 - [NTFS for Mac](https://www.paragon-software.com/home/ntfs-mac/): if you want to mount ntfs volumes and write to them (usb drives) you need this.  
 - [Wifi Explorer](https://www.adriangranados.com/): free wifi scanner
+- [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) and [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html) which monitor your computers i/o and video/mic usage
