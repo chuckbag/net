@@ -1,10 +1,19 @@
 # Virgin-ise a Cisco Router
 
 
-## Cleaning the configs of a Cisco Router
-I need to add this to my list of doc's because I don't think I would ever run this command in a normal work day :).
+## Deleting the config files:  
+There are two files you need to remove to clean out the configs of a device.  The first is the config file, and the second is the file that records all the vlan info.  
 
-### To Do:
+As long as you delete the following, the device will come up empty after reboot.  (Note that you need root on the device to do this.)
+
+```
+delete flash:/config.text
+delete flash:/vlan.dat
+reload
+```
+
+## Using Commands to delete configs: 
+
 The task at hand is to clear all the configs from the router and bring it to it's factory settings. To do this you only need to do three things:
 
 - erase startup-config, and accept

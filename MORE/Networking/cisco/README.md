@@ -28,8 +28,8 @@ Older Firewall Versions:
 - [Older PIX documentation](older-pix-documentation.md).  How to work with older (below v8.3) cisco firewalls.  
 
 ## Switching/Routers:
-- Routing Theory: (<--Go through and clean up!-->) A list of different routing protocols, the theory behind them, and how to use them on a cisco router.
-- IOS Configs: A list of HowTo's for setting up a router and making it do specific things.  
+- [Routing Theory](../Eth-IP/layer3/routing-theory.md): A list of different routing protocols, the theory behind them, and how to use them on a cisco router.
+- [IOS Configs](ios-configs.md): A list of HowTo's for setting up a router and making it do specific things.  
 - Nexus Configs: Standard config templates, and what makes what do what.
 - CatOS Configs: How to configure different things in catos, cisco's older switching os
 - 300 Switches: Very low end switches that are "almost" running ios
