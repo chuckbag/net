@@ -30,14 +30,12 @@ Older Firewall Versions:
 ## Switching/Routers:
 - [Routing Theory](../Eth-IP/layer3/routing-theory.md): A list of different routing protocols, the theory behind them, and how to use them on a cisco router.
 - [IOS Configs](ios-configs.md): A list of HowTo's for setting up a router and making it do specific things.  
-- Nexus Configs: Standard config templates, and what makes what do what.
-- CatOS Configs: How to configure different things in catos, cisco's older switching os
-- 300 Switches: Very low end switches that are "almost" running ios
+- [Nexus Configs](nexus.md): Standard config templates, and what makes what do what.
+- [CatOS Configs](catos-configs.md): How to configure different things in catos, cisco's older switching os
+- [300 Switches](cisco-small-business-300-series-managed-switches.md): Very low end switches that are "almost" running ios
 
 ## VoIP
-- some notes on setting up a cisco voice lab (need to review, but worth pointing out...)
-- configuring a VG:
+- [configuring a Voice Gateway](configuring-a-vg.md):
 
 ## Wifi
-- Support / Basics of WLC: How to get serial numbers, reset devices, etc. 
-- 2500 WLC: How to setup and use the basic cisco wireless controller. 
+- [2500 WLC](2500-wlc.md): How to setup and use the basic cisco wireless controller. 

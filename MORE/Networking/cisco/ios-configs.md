@@ -43,10 +43,3 @@
 ## Automation:
 - [Cisco 3120 (HP Blade Switch) Config Builder](bin/Cisco3120xBuilder.xlsx): If you need to make many duplicate switch configs, and you don't want to write a perl/python script, you can easily use excel and paste the output to txt, and run a few "replace all" commands.
 
-## References: 
-- Cisco IOS Command Reference Master Index for IOS versions: 12.0, 12.1, 12.2
-- IOS Naming Conventions: Look at an IOS software image file name, and decode what it is.
-- Project DOTU and Undocumented IOS: Listing all the undocumented Cisco Commands and features.
-- IOS Password Encryption Facts: why to use "enable secret" and not user passwords
-- Improving Security on the Cisco Routers
-- Characterizing and Tracing Packet Floods Using Cisco Routers
