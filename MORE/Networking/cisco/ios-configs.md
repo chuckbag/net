@@ -33,15 +33,15 @@
 - [AAA + ISDN + PPP](aaa-isdn-ppp.md): Configuring ISDN dialup with console and PPP, and with AAA (radius) authentication.
 
 ## Troubleshooting:
-- Troubleshooting Switch Port and Interface Problems: Good commands to use, and how to interpret them (ie: what all the var's are for sh int)
-- spanning tree: 
-- Simple port troubleshooting: Why can't you pass traffic on the new port? 
+- [Troubleshooting Switch Port and Interface Problems](http://www.cisco.com/en/US/products/hw/switches/ps708/products_tech_note09186a008015bfd6.shtml): Good commands to use, and how to interpret them (ie: what all the var's are for `sh int`)
+- [spanning tree](spanning-tree-troubleshooting.md): 
+- [Simple port troubleshooting](simple-port-troubleshooting.md): Why can't you pass traffic on the new port? 
 
 ## Hardware Issues: 
-- 3750 Stacking Issues: Rules and processes for dealing with the stackable switches. 
+- [3750 Stacking Issues](3750-stacking-switches.md): Rules and processes for dealing with the stackable switches. 
 
 ## Automation:
-- Cisco 3120 (HP Blade Switch) Config Builder:Quick way to make sure that your configs are correct, and with only a few typos.
+- [Cisco 3120 (HP Blade Switch) Config Builder](bin/Cisco3120xBuilder.xlsx): If you need to make many duplicate switch configs, and you don't want to write a perl/python script, you can easily use excel and paste the output to txt, and run a few "replace all" commands.
 
 ## References: 
 - Cisco IOS Command Reference Master Index for IOS versions: 12.0, 12.1, 12.2
