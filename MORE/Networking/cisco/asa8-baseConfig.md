@@ -6,22 +6,22 @@
 
 ## Base Configs:
 - [Interfaces and Routes](asa8-interfaces-and-routes.md): How to define physical and virtual interfaces, and to setup basic static routes
-- [User Accounts](user-accounts.md): How to configure users and allow them access to the firewall:
-- [FIPS 140-2 Compliant](fips-140-2-compliant.md): A few additions to the config to make it a bit harder to crack
-- [Failover Configuration](failover-configuration.md): What to do to pair two firewalls in an HA setup.
+- [User Accounts](asa8-user-accounts.md): How to configure users and allow them access to the firewall:
+- [FIPS 140-2 Compliant](asa8-fips-140-2-compliant.md): A few additions to the config to make it a bit harder to crack
+- [Failover Configuration](asa8-failover-configuration.md): What to do to pair two firewalls in an HA setup.
 - [Syslogging](asa-syslogging.md): How to get your logs off the firewall, and how much to collect.
 - [SNMP](snmp.md): How to allow snmp polling of your firewall. 
 - [CLI Prompt](https://itsecworks.com/2010/11/12/cisco-asa-prompt-for-failover/): use the prompt command to change the prompt to indicate the status of the firewall
-- [Upgrading the ASDM](upgrading-the-asdm.md): There are a couple of things where you need the cisco gui. 
-- [Adding new Certs](adding-new-certs.md): Steps to make add and move certs
+- [Upgrading the ASDM](asa-upgrading-the-asdm.md): There are a couple of things where you need the cisco gui. 
+- [Adding new Certs](asa8-adding-new-certs.md): Steps to make add and move certs
 
 ## NAT/PATing:
-- [Outbound PATing](outbound-pating.md): (port address translation) How to set up many internal IP address in an office to all go out one IP on the outside of a firewall. 
-- [Inbound NATing](inbound-nating.md): (network address translation) How to send traffic to an internal server by using an IP address on the outside of the firewall. 
+- [Outbound PATing](asa-outbound-pating.md): (port address translation) How to set up many internal IP address in an office to all go out one IP on the outside of a firewall. 
+- [Inbound NATing](asa-inbound-nating.md): (network address translation) How to send traffic to an internal server by using an IP address on the outside of the firewall. 
 
 ## Access Control Lists: 
-- [Downward Flow](downward-flow.md): The firewall has this idea of more and less secure networks.   Traveling "downward" (from a more secure to less) can be done without the need of an ACL.  
-- [Interface ACL's](interface-acls.md):  Reviews how you can create an ACL and bind it to an interface.
+- [Downward Flow](asa-downward-flow.md): The firewall has this idea of more and less secure networks.   Traveling "downward" (from a more secure to less) can be done without the need of an ACL.  
+- [Interface ACL's](asa-interface-acls.md):  Reviews how you can create an ACL and bind it to an interface.
 
 ## References: 
 - [FIPS 140-2 Security Policy for ASA 5500's](http://www.cisco.com/en/US/docs/security/asa/asa70/hw/fips_asa.html) (Cisco 2008)

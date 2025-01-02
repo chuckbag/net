@@ -15,7 +15,7 @@ Cisco ASA, (version 9)
 
 Cisco ASA, (version 8)
 - [Base Config](asa8-baseConfig.md):  Configure interfaces, setup routes, and setup inbound NAT's and outbound PATs
-- [User Auth](user-auth.md): Different methods for authenticating users
+- [User Auth](asa-user-auth.md): Different methods for authenticating users
 - [ASA 5000 Password Reset](asa-5000-password-reset.md). Poop happens... here's how to clean it up. 
 - [VPN's](setting-up-vpns-on-v-8-3-pixes.md):  How to setup VPN access to your firewalls (IPSEC and SSL)
 - [Capture command](capture-command.md):  How to run tcpdump on the ASA
