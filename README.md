@@ -25,12 +25,11 @@
 - [Arista](MORE/Networking/arista/README.md): Fast switches!
 - [Aruba](MORE/Networking/aruba/README.md): Not just Wifi!
 - [Splunk](MORE/Networking/splunk/README.md): Google for syslog
-- Riverbed: WAN Speedup devices
+- [Ruckus](MORE/Networking/ruckus/README.md): Brocade's Wifi
 - Palo Alto: Nice Firewalls!
 - Barracuda: Not great... but it's out there...
 - RSA: It's more then just a proprietary encryption algorithm
 - Infoblox: DNS made really easy
-- Ruckus: Brocade's Wifi
 - Other:
 - ServerTech: Great power systems
 - APC: Power systems
