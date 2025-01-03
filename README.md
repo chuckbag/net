@@ -27,12 +27,12 @@
 - [Splunk](MORE/Networking/splunk/README.md): Google for syslog
 - [Ruckus](MORE/Networking/ruckus/README.md): Brocade's Wifi
 - [ServerTech](MORE/Networking/servertech/README.md): Great power systems
+- [APC](MORE/Networking/apc/README.md): Power systems
 - Palo Alto: Nice Firewalls!
 - Barracuda: Not great... but it's out there...
 - RSA: It's more then just a proprietary encryption algorithm
 - Infoblox: DNS made really easy
 - Other:
-- APC: Power systems
 - Raritan: Console/Serial and KVM terminals
 - Opengear: Console/Serial and KVM terminals
 - Checkpoint: Firewall stuff 
