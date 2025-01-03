@@ -1,0 +1,9 @@
+Step 53: Add <div> tag references and data options:
+
+<div id="punchcard" class="splunk-view" 
+    data-require="app/advdash/components/punchcard/punchcard" 
+    data-options="{                                     
+        &quot;managerid&quot;: &quot;punchcard_search&quot;,                
+        &quot;range_values&quot;: [&quot;Sun&quot;, &quot;Mon&quot;, &quot;Tue&quot;, &quot;Wed&quot;, &quot;Thu&quot;, &quot;Fri&quot;, &quot;Sat&quot;],                                      &quot;height&quot;: 300                                  
+    }">
+</div>

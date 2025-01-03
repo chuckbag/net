@@ -24,7 +24,7 @@
 - [F5](MORE/Networking/f5/README.md): Load Balancers. 
 - [Arista](MORE/Networking/arista/README.md): Fast switches!
 - [Aruba](MORE/Networking/aruba/README.md): Not just Wifi!
-- Splunk: Google for syslog
+- [Splunk](MORE/Networking/splunk/README.md): Google for syslog
 - Riverbed: WAN Speedup devices
 - Palo Alto: Nice Firewalls!
 - Barracuda: Not great... but it's out there...
