@@ -16,8 +16,9 @@
 - Solving ip masking problems. I want to create a page that helps people understand how ip's and masks work together. A kind of "how-to" on CIDR. Anyway this is where that page will be.
 - [Interactive IP Stack](http://www.cs.columbia.edu/~hgs/internet/). Shows the osi model and hot links describing what they are and more links and info on them.
 
-### TCP/UDP (Layer4) Theory
+### Layer4 Theory
 - IP/TCP/UDP/ICMP Poster. A nice poster to printout on a plotter. Shows all of the IP Stack's packets and some of their flow diagrams.
+- [IPSec Theory](layer3/ipsec-theroy.md): AH/ESP
   
 ## Managing IP Space
 - [Getting IP Addresses](layer3/GettingIPaddresses.md): How to request IP's and BGP ASN's from the registries
