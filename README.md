@@ -30,16 +30,9 @@
 - [APC](MORE/Networking/apc/README.md): Power systems
 - [Raritan](MORE/Networking/raritan/README.md): Console/Serial and KVM terminals
 - [Opengear](MORE/Networking/opengear/README.md): Console/Serial and KVM terminals
-  
-- Palo Alto: Nice Firewalls!
-- Barracuda: Not great... but it's out there...
-- RSA: It's more then just a proprietary encryption algorithm
-- Infoblox: DNS made really easy
-- Other:
 - Checkpoint: Firewall stuff 
-- Dell: Force10 switches
-- ThousandEyes: WAN monitoring service
-- VMWare: Burning up memory and diskspace for badly written applications
+- [Dell](MORE/Networking/dell/README.md): Force10 switches
+- Other:
 
 ## Application and Service Notes:
 - [Subversion](MORE/App/Subversion/README.md): It's true, I use it.  Even though [Linus thinks we're all idiots](https://www.youtube.com/watch?v=4XpnKHJAok8). 
@@ -52,6 +45,7 @@
 - [SNMP](MORE/App/snmp.md): How to "simply" monitor other systems.
 - [WAN Protocols](MORE/Networking/Eth-IP/layer3/wanProtocols.md): How to push lots of data over long hauls without the TCP latency issues.
 - Monitoring: Tools to know your net.
+- virtualization: Burning up memory and disk space for badly written applications
 
 ## Other:
 - [Power Standards](MORE/Other/PowerStandards/README.md): Plug types, local electrical standards, Watts vs. VA. etc.
