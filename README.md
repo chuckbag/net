@@ -29,7 +29,7 @@
 - [ServerTech](MORE/Networking/servertech/README.md): Great power systems
 - [APC](MORE/Networking/apc/README.md): Power systems
 - [Raritan](MORE/Networking/raritan/README.md): Console/Serial and KVM terminals
-- Opengear: Console/Serial and KVM terminals
+- [Opengear](MORE/Networking/opengear/README.md): Console/Serial and KVM terminals
   
 - Palo Alto: Nice Firewalls!
 - Barracuda: Not great... but it's out there...
