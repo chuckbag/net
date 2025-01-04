@@ -28,13 +28,14 @@
 - [Ruckus](MORE/Networking/ruckus/README.md): Brocade's Wifi
 - [ServerTech](MORE/Networking/servertech/README.md): Great power systems
 - [APC](MORE/Networking/apc/README.md): Power systems
+- [Raritan](MORE/Networking/raritan/README.md): Console/Serial and KVM terminals
+- Opengear: Console/Serial and KVM terminals
+  
 - Palo Alto: Nice Firewalls!
 - Barracuda: Not great... but it's out there...
 - RSA: It's more then just a proprietary encryption algorithm
 - Infoblox: DNS made really easy
 - Other:
-- Raritan: Console/Serial and KVM terminals
-- Opengear: Console/Serial and KVM terminals
 - Checkpoint: Firewall stuff 
 - Dell: Force10 switches
 - ThousandEyes: WAN monitoring service
