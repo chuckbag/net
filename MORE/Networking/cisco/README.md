@@ -10,6 +10,7 @@ General Cisco links that could be applicable for many different cisco products.
 - [TAC Support Levels](tac-support-levels.md): what's the code for 24x7xNBD? 
 
 ## Firewalls
+
 Cisco ASA, (version 9)
 - [Base Config](base-config-asa-v9.md): Configure interfaces, setup routes, and setup inbound NAT's and outbound PATs
 
@@ -25,7 +26,7 @@ Theory:
 - [IPSec Theory Cheat Sheet](../Eth-IP/layer3/ipsec-theroy.md).  The form, and howto for connecting two companies with VPN.
 
 Older Firewall Versions: 
-- [Older PIX documentation](older-pix-documentation.md).  How to work with older (below v8.3) cisco firewalls.  
+- [PIX Firewalls](pix-README.md).  Just for funzies! How to work with older (below v8.3) cisco firewalls.  
 
 ## Switching/Routers:
 - [Routing Theory](../Eth-IP/layer3/routing-theory.md): A list of different routing protocols, the theory behind them, and how to use them on a cisco router.
