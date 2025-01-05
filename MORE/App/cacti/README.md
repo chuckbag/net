@@ -13,7 +13,5 @@
   - [Define Devices](define-devices.md): Create a list of devices to poll, and how to poll them. 
 - [Adding Plugins](adding-plugins.md): Extensions that really make cacti very nice indeed!  Including network weathermap and aggregate!
     - [aggregate](aggregate.md): how to blend two graphs into one.
-    - smokeping: graphing with smokyness!
-    - Network Weather Map: A marked up network diagram
-- Custom Monitoring: How to poll specific OIDs, or create templates for custom devices
+    - [smokeping](../smokeping.md): graphing with smokyness!
 

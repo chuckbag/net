@@ -47,8 +47,7 @@ Backend Support Equipment:
 - GPG: Is it still vogue to prevent folks from knowing everything about you?
 - [Bind](MORE/OS/unix/dns/README.md): no need to rely on your providers DNS.
 - [SNMP](MORE/App/snmp.md): How to "simply" monitor other systems.
-- Monitoring: Tools to know your net.
-    - [Splunk](MORE/Networking/splunk/README.md): Google for syslog
+- [Monitoring](MORE/App/monitoring.md): Tools to know your net.
 - [virtualization](MORE/OS/vm/README.md): Burning up memory and disk space for badly written applications
 
 ## Other:
