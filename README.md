@@ -30,7 +30,7 @@
 - [APC](MORE/Networking/apc/README.md): Power systems
 - [Raritan](MORE/Networking/raritan/README.md): Console/Serial and KVM terminals
 - [Opengear](MORE/Networking/opengear/README.md): Console/Serial and KVM terminals
-- Checkpoint: Firewall stuff 
+- [Checkpoint](MORE/Networking/checkpoint/README.md): Firewall stuff 
 - [Dell](MORE/Networking/dell/README.md): Force10 switches
 - Other:
 
