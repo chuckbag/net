@@ -12,12 +12,11 @@
 
 ### IP Theory
 - [Understanding IP Addressing: Everything You Ever Wanted To Know - By Chuck Semeria](https://cse.buffalo.edu/~hungngo/classes/2010/589/reading-materials/IP-addressing.pdf). This is actually a great guide! So good that I downloaded the [pdf's](layer3/IP-addressing.pdf) for backup incase I couldn't get to the link anymore.
-- TCP Performance-Tuning. This is a good doc explaining how the IP sliding windows work, and how to work with them.
-- Solving ip masking problems. I want to create a page that helps people understand how ip's and masks work together. A kind of "how-to" on CIDR. Anyway this is where that page will be.
+- [TCP Performance-Tuning](layer3/tcpwindows.md). This is a good doc explaining how the IP sliding windows work, and how to work with them.
 - [Interactive IP Stack](http://www.cs.columbia.edu/~hgs/internet/). Shows the osi model and hot links describing what they are and more links and info on them.
+- [IP/TCP/UDP/ICMP Poster](layer3/img/tcp_post.pdf). A nice poster to printout on a plotter. Shows all of the IP Stack's packets and some of their flow diagrams.
 
 ### Layer4 Theory
-- IP/TCP/UDP/ICMP Poster. A nice poster to printout on a plotter. Shows all of the IP Stack's packets and some of their flow diagrams.
 - [IPSec Theory](layer3/ipsec-theroy.md): AH/ESP
   
 ## Managing IP Space

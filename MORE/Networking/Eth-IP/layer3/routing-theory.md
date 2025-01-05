@@ -14,11 +14,10 @@
 
 ## Experiments and Configurations:
 - [Experiments in RIP showing how DVRP prevents routing loops](experiments-in-rip-showing-how-dvrp-prevents-routing-loops.md)
-- Lab: Example of HSRP and Weighted Static Routes
 
 ## Other Routing Protocols:
-- HSRP: Cisco's Hot Standby Routing Protocol
-- Multicasting: Both layer 2 and 3.
+- [HSRP](../../cisco/hsrp-and-weighted-static-routes.md): Cisco's Hot Standby Routing Protocol
+- [Multicasting](multicast.md): Both layer 2 and 3.
 - [PNNI](atm-and-pnni.md): the routing protocol behind ATM.
 
 

@@ -1,5 +1,25 @@
 # HSRP and Weighted Static Routes
 
+- [HSRP and Weighted Static Routes](#hsrp-and-weighted-static-routes)
+  - [Overview:](#overview)
+  - [Network Layout:](#network-layout)
+  - [Wiring Diagram](#wiring-diagram)
+  - [System Configs](#system-configs)
+    - [Router A](#router-a)
+    - [Router B](#router-b)
+    - [Router C](#router-c)
+    - [Router D](#router-d)
+  - [Test Results](#test-results)
+    - [Expected Traffic Flows](#expected-traffic-flows)
+  - [Examining Traffic](#examining-traffic)
+    - [Sniff output from VLAN2](#sniff-output-from-vlan2)
+  - [Lab Setup](#lab-setup)
+    - [Bunson's configs:](#bunsons-configs)
+    - [Beaker's configs:](#beakers-configs)
+    - [Examples of fail overs](#examples-of-fail-overs)
+  - [References:](#references)
+
+
 ## Overview:
 This lab explores two different basic routing topics, Weighted Static Routes and HSRP.With weighted static routes, we can have two different static routes to one destination, but they have different weights, or preferences. The first route is weighed less, and is the preferred route. If the primary route goes away (switch/link failure) then the secondary route, with the larger weight is used.
 

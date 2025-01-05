@@ -2,6 +2,7 @@
 
 - [Ethernet and IP Notes](MORE/Networking/Eth-IP/README.md): (layers 1-3) Reviews topics related to Ethernet and IP. 
 - [Routing Theory](MORE/Networking/Eth-IP/layer3/routing-theory.md): (layers 3-4) A look at different routing protocols and how they work.
+- [WAN Protocols](MORE/Networking/Eth-IP/layer3/wanProtocols.md): How to push lots of data over long hauls without the TCP latency issues.
 - [Wifi](MORE/Networking/wifi/README.md): protocols, db loss, etc. 
 
 ## Server, System, and Security Topics:
@@ -19,33 +20,36 @@
 - [Security related topics](MORE/security/README.md)
 
 ## Specific Vendor Stuff:
+
+Major Network Vendors: 
 - [Cisco](MORE/Networking/cisco/README.md): Some specific Cisco items.
 - [Juniper](MORE/Networking/juniper/README.md): Some notes on the Juniper product line
 - [F5](MORE/Networking/f5/README.md): Load Balancers. 
 - [Arista](MORE/Networking/arista/README.md): Fast switches!
 - [Aruba](MORE/Networking/aruba/README.md): Not just Wifi!
-- [Splunk](MORE/Networking/splunk/README.md): Google for syslog
 - [Ruckus](MORE/Networking/ruckus/README.md): Brocade's Wifi
+- [Checkpoint](MORE/Networking/checkpoint/README.md): Firewall stuff 
+- [Dell](MORE/Networking/dell/README.md): Force10 switches
+  
+Backend Support Equipment: 
 - [ServerTech](MORE/Networking/servertech/README.md): Great power systems
 - [APC](MORE/Networking/apc/README.md): Power systems
 - [Raritan](MORE/Networking/raritan/README.md): Console/Serial and KVM terminals
 - [Opengear](MORE/Networking/opengear/README.md): Console/Serial and KVM terminals
-- [Checkpoint](MORE/Networking/checkpoint/README.md): Firewall stuff 
-- [Dell](MORE/Networking/dell/README.md): Force10 switches
+- [Vertiv/Avocent/Cyclades](MORE/Networking/vertiv/README.md): Console/Serial servers
 - Other:
 
 ## Application and Service Notes:
 - [Subversion](MORE/App/Subversion/README.md): It's true, I use it.  Even though [Linus thinks we're all idiots](https://www.youtube.com/watch?v=4XpnKHJAok8). 
 - [Git](MORE/App/Git/README.md): Like subversion, but Linus likes it.
 - [Vim](MORE/App/VIM/README.md), and [EditPlus](MORE/OS/windows/app/editplus.md): Both great text editing tools, but for some things being outclassed by [Visual Studio Code](MORE/OS/apple/apps/MS-Code.md).
-- GNS3: Virtual router lab for running tests
 - Synergy: Two computers, each with their own monitor, but one keyboard and mouse!
 - GPG: Is it still vogue to prevent folks from knowing everything about you?
 - [Bind](MORE/OS/unix/dns/README.md): no need to rely on your providers DNS.
 - [SNMP](MORE/App/snmp.md): How to "simply" monitor other systems.
-- [WAN Protocols](MORE/Networking/Eth-IP/layer3/wanProtocols.md): How to push lots of data over long hauls without the TCP latency issues.
 - Monitoring: Tools to know your net.
-- virtualization: Burning up memory and disk space for badly written applications
+    - [Splunk](MORE/Networking/splunk/README.md): Google for syslog
+- [virtualization](MORE/OS/vm/README.md): Burning up memory and disk space for badly written applications
 
 ## Other:
 - [Power Standards](MORE/Other/PowerStandards/README.md): Plug types, local electrical standards, Watts vs. VA. etc.
