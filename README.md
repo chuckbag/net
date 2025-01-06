@@ -45,9 +45,9 @@ Backend Support Equipment:
 - [Vim](MORE/App/VIM/README.md), and [EditPlus](MORE/OS/windows/app/editplus.md): Both great text editing tools, but for some things being outclassed by [Visual Studio Code](MORE/OS/apple/apps/MS-Code.md).
 - Synergy: Two computers, each with their own monitor, but one keyboard and mouse!
 - GPG: Is it still vogue to prevent folks from knowing everything about you?
-- [Bind](MORE/OS/unix/dns/README.md): no need to rely on your providers DNS.
-- [SNMP](MORE/App/snmp.md): How to "simply" monitor other systems.
+- [DNS/BIND](MORE/OS/unix/dns/README.md): no need to rely on your providers DNS.
 - [Monitoring](MORE/App/monitoring.md): Tools to know your net.
+- [Mail/SMTP](MORE/App/SMTP/README.md): Mail protocols, tools and apps
 - [virtualization](MORE/OS/vm/README.md): Burning up memory and disk space for badly written applications
 
 ## Other:

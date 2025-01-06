@@ -5,6 +5,8 @@
 - [syslog-ng](../OS/unix/syslog-ng.md): How to setup a syslog service
 - [Splunk](splunk/README.md): BI tool for log data. 
 
+## Polling: 
+- [SNMP](snmp.md): How to "simply" monitor other systems.
 
 ## Free Monitoring Solutions:
 - [Cacti](cacti/README.md): Good SNMP Poller and grapher.  ("nexgen-MRTG")

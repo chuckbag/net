@@ -32,10 +32,10 @@
 - Linux IP Settings. A brief reminder on how all the Ethernet and IP stacks come together on the Linux/Redhat platform.
 
 ## Analyzing and Monitoring Network Traffic
-This section is kind of a bridge between the "analyzing ethernet and ip" section, and the "security" section. Here we will be looking at ways to view traffic, debug problems, and use different tools to help analyse what is going on.
+This section is kind of a bridge between the "analyzing ethernet and ip" section, and the "security" section. Here we will be looking at ways to view traffic, debug problems, and use different tools to help analyze what is going on.
 
 ### Procedures for testing:
-- Spaning and tcpdump. This doc explains how to setup cisco switches to "span" or to mirror traffic between two hosts to another sniffing host. It also describes some basic unix tcpdump commands to sniff the traffic and to save it to a file to be later analysed with ethereal.
+- Spaning and tcpdump. This doc explains how to setup cisco switches to "span" or to mirror traffic between two hosts to another sniffing host. It also describes some basic unix tcpdump commands to sniff the traffic and to save it to a file to be later analyzed with ethereal.
 - Traffic and Bandwidth Testing Procedures. A simple set of steps that can be used to test different networking equipment to see how they behave when traffic is sent through them.
 
 ### Tools for testing:
